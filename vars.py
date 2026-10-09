@@ -2,8 +2,8 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "24368576"))
-API_HASH = os.environ.get("API_HASH", "8968f5cc5fe0c95f25b7b25ff0d322f2")
+API_ID = int(os.environ.get("API_ID", "36776043"))
+API_HASH = os.environ.get("API_HASH", "6f5490289669fe678d95948f677be62a")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 CREDIT = os.environ.get("CREDIT", "𓍯𝙎𝙪𝙟𝙖𝙡⚝")
@@ -34,31 +34,13 @@ AUTH_MESSAGES = {
 <blockquote>Your subscription has been activated and will expire on {expiry_date}.
 You can now use the bot!</blockquote>\n\n Type /start to start uploading """,
 
-    "subscription_expired": """<b>⚠️ Your Subscription Has Ended</b>
-
-<blockquote>Your access to the bot has been revoked as your subscription period has expired.
-Please contact the admin to renew your subscription.</blockquote>""",
 
     "user_added": """<b>✅ User Added Successfully!</b>
 
 <blockquote>👤 Name: {name}
 🆔 User ID: {user_id}
-📅 Expiry: {expiry_date}</blockquote>""",
+📅 Expiry: {expiry_date}</blockquote>"""
 
-    "user_removed": """<b>✅ User Removed Successfully!</b>
-
-<blockquote>User ID {user_id} has been removed from authorized users.</blockquote>""",
-
-    "access_denied": """<b>⚠️ Access Denied!</b>
-
-<blockquote>You are not authorized to use this bot.
-Please contact the admin @ItsUGBot to get access.</blockquote>""",
-
-    "not_admin": "⚠️ You are not authorized to use this command!",
-    
-    "invalid_format": """❌ <b>Invalid Format!</b>
-
-<blockquote>Use format: {format}</blockquote>"""
 }
 
 
